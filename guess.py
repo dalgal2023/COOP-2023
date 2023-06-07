@@ -36,3 +36,5 @@ print(y)
 
 # tell driver to wait until webpage gives an alert (it never will), this is so progress can be observed
 WebDriverWait(driver, 200).until(ec.alert_is_present(), "done")
+
+# hi
